@@ -1,0 +1,74 @@
+{
+  "name": "consolelog-toggle-comment",
+  "displayName": "Console.log Toggle Comment",
+  "description": "One-click solution to toggle all console.log statements in the active editor between commented and uncommented states",
+  "version": "1.0.0",
+  "publisher": "DotJumpDot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dotjumpdot/consolelog-toggle-comment"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "console",
+    "debug",
+    "toggle",
+    "comment",
+    "log",
+    "javascript",
+    "typescript",
+    "productivity",
+    "developer-tools"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "consolelogToggle.toggle",
+        "title": "Console.log Toggle Comment: Toggle Console Statements"
+      },
+      {
+        "command": "consolelogToggle.mapKey",
+        "title": "Console.log Toggle Comment: Map Key"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "consolelogToggle.toggle",
+        "key": "ctrl+alt+l",
+        "mac": "cmd+alt+l",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.80.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@vscode/test-electron": "^2.3.0",
+    "eslint": "^8.0.0",
+    "glob": "^10.0.0",
+    "mocha": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
