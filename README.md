@@ -6,9 +6,11 @@
 
 A simple yet powerful VS Code extension that provides a one-click solution to toggle all `console.log` statements in the active editor between commented and uncommented states.
 
-## Demo
+## 📺 Demo
 
-![Demo](demo.gif)
+![Console.log Toggle Comment Demo](./media/demo.gif)
+
+> Watch how Console.log Toggle Comment instantly toggles all console statements with a single click
 
 ## Extension Info
 
@@ -17,7 +19,7 @@ A simple yet powerful VS Code extension that provides a one-click solution to to
 | **Name**         | Console.log Toggle Comment                                                                                            |
 | **Extension ID** | `DotJumpDot.consolelog-toggle-comment`                                                                                |
 | **Description**  | One-click solution to toggle all console.log statements in the active editor between commented and uncommented states |
-| **Version**      | 1.0.1                                                                                                                 |
+| **Version**      | 1.0.2                                                                                                                 |
 | **Publisher**    | DotJumpDot (JM)                                                                                                       |
 | **Marketplace**  | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=DotJumpDot.consolelog-toggle-comment)            |
 

@@ -2,7 +2,7 @@
   "name": "consolelog-toggle-comment",
   "displayName": "Console.log Toggle Comment",
   "description": "One-click solution to toggle all console.log statements in the active editor between commented and uncommented states",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "DotJumpDot",
   "icon": "media/icon.png",
   "license": "MIT",
