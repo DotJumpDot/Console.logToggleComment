@@ -5,9 +5,22 @@ All notable changes to the Console.log Toggle Comment extension will be document
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-02-04
+
+### Changed
+
+- Improved README.md formatting for Extension Info section with table layout
+- Updated version badge to 1.0.1
+- Added extension icon for better visual identity in marketplace
+
+### Fixed
+
+- Minor formatting improvements in documentation
+
 ## [1.0.0] - 2026-02-04
 
 ### Added
+
 - Initial release of Console.log Toggle Comment extension
 - One-click toggle functionality for all console statements
 - Status bar button located in bottom-left corner
@@ -22,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned Features
+
 - Support for custom console method detection patterns
 - Toggle selection only (instead of entire file)
 - Auto-toggle on save option
@@ -29,6 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dark/Light theme status bar icon variants
 
 ### Potential Improvements
+
 - Performance optimization for large files
 - Multi-file toggle support
 - Undo/redo support for toggle operations

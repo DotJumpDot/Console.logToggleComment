@@ -1,10 +1,25 @@
 # Console.log Toggle Comment
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/dotjumpdot/consolelog-toggle-comment)
+[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/dotjumpdot/consolelog-toggle-comment)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.80.0%2B-blue.svg)](https://code.visualstudio.com)
 
 A simple yet powerful VS Code extension that provides a one-click solution to toggle all `console.log` statements in the active editor between commented and uncommented states.
+
+## Demo
+
+![Demo](demo.gif)
+
+## Extension Info
+
+| Property         | Value                                                                                                                 |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Name**         | Console.log Toggle Comment                                                                                            |
+| **Extension ID** | `DotJumpDot.consolelog-toggle-comment`                                                                                |
+| **Description**  | One-click solution to toggle all console.log statements in the active editor between commented and uncommented states |
+| **Version**      | 1.0.1                                                                                                                 |
+| **Publisher**    | DotJumpDot (JM)                                                                                                       |
+| **Marketplace**  | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=DotJumpDot.consolelog-toggle-comment)            |
 
 ## Features
 
@@ -28,22 +43,26 @@ A simple yet powerful VS Code extension that provides a one-click solution to to
 ### From Source
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/dotjumpdot/consolelog-toggle-comment.git
    cd consolelog-toggle-comment
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Build the extension:
+
    ```bash
    npm run compile
    ```
 
 4. Package the extension:
+
    ```bash
    vsce package
    ```
@@ -87,16 +106,16 @@ Press `Ctrl+Alt+L` (Windows/Linux) or `Cmd+Alt+L` (Mac) to toggle console statem
 
 ```javascript
 function calculateSum(a, b) {
-  console.log('Calculating sum...');
+  console.log("Calculating sum...");
   const result = a + b;
-  console.log('Result:', result);
+  console.log("Result:", result);
   return result;
 }
 
-console.error('This is an error');
-console.warn('This is a warning');
-console.info('This is info');
-console.debug('Debugging information');
+console.error("This is an error");
+console.warn("This is a warning");
+console.info("This is info");
+console.debug("Debugging information");
 ```
 
 ### After Toggle
@@ -148,6 +167,7 @@ No configuration is required. The extension works out of the box with the defaul
 
 1. Clone the repository
 2. Install dependencies:
+
    ```bash
    npm install
    ```
