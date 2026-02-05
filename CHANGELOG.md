@@ -5,6 +5,28 @@ All notable changes to the Console.log Toggle Comment extension will be document
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.6] - 2026-02-05
+
+### Fixed
+
+- Corrected demo GIF link to point to the correct repository name: `Console.logToggleComment`
+- Fixed all repository links and metadata to match the actual GitHub project name
+
+## [1.0.5] - 2026-02-05
+
+### Changed
+
+- Reverted demo GIF to relative path for standard `vsce` packaging
+- Optimized `package.json` repository URL for better automatic URL resolution by the Marketplace
+
+## [1.0.4] - 2026-02-05
+
+### Fixed
+
+- Switched to `raw.githubusercontent.com` absolute URL for demo GIF to ensure visibility on VS Code Marketplace
+- Added `homepage` and `bugs` fields to `package.json` for better Marketplace integration
+- Corrected extension version in README info table
+
 ## [1.0.3] - 2026-02-04
 
 ### Fixed

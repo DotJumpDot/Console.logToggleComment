@@ -1,6 +1,6 @@
 # Console.log Toggle Comment
 
-[![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)](https://github.com/dotjumpdot/consolelog-toggle-comment)
+[![Version](https://img.shields.io/badge/version-1.0.6-blue.svg)](https://github.com/DotJumpDot/Console.logToggleComment)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.80.0%2B-blue.svg)](https://code.visualstudio.com)
 
@@ -19,7 +19,7 @@ A simple yet powerful VS Code extension that provides a one-click solution to to
 | **Name**         | Console.log Toggle Comment                                                                                            |
 | **Extension ID** | `DotJumpDot.consolelog-toggle-comment`                                                                                |
 | **Description**  | One-click solution to toggle all console.log statements in the active editor between commented and uncommented states |
-| **Version**      | 1.0.2                                                                                                                 |
+| **Version**      | 1.0.6                                                                                                                 |
 | **Publisher**    | DotJumpDot (JM)                                                                                                       |
 | **Marketplace**  | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=DotJumpDot.consolelog-toggle-comment)            |
 
@@ -47,8 +47,8 @@ A simple yet powerful VS Code extension that provides a one-click solution to to
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/dotjumpdot/consolelog-toggle-comment.git
-   cd consolelog-toggle-comment
+   git clone https://github.com/DotJumpDot/Console.logToggleComment.git
+   cd Console.logToggleComment
    ```
 
 2. Install dependencies:
@@ -221,7 +221,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/dotjumpdot/consolelog-toggle-comment/issues) on GitHub.
+If you encounter any issues or have questions, please [open an issue](https://github.com/DotJumpDot/Console.logToggleComment/issues) on GitHub.
 
 ## Acknowledgments
 

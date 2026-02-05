@@ -2,13 +2,17 @@
   "name": "consolelog-toggle-comment",
   "displayName": "Console.log Toggle Comment",
   "description": "One-click solution to toggle all console.log statements in the active editor between commented and uncommented states",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "publisher": "DotJumpDot",
   "icon": "media/icon.png",
   "license": "MIT",
+  "homepage": "https://github.com/DotJumpDot/Console.logToggleComment#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dotjumpdot/consolelog-toggle-comment"
+    "url": "https://github.com/DotJumpDot/Console.logToggleComment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DotJumpDot/Console.logToggleComment/issues"
   },
   "engines": {
     "vscode": "^1.80.0"
