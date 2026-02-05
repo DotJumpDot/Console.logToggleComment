@@ -8,7 +8,7 @@ A simple yet powerful VS Code extension that provides a one-click solution to to
 
 ## 📺 Demo
 
-![Console.log Toggle Comment Demo](https://github.com/dotjumpdot/consolelog-toggle-comment/raw/main/media/demo.gif)
+![Console.log Toggle Comment Demo](./media/demo.gif)
 
 > Watch how Console.log Toggle Comment instantly toggles all console statements with a single click
 
