@@ -1,6 +1,6 @@
 # Console.log Toggle Comment
 
-[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/dotjumpdot/consolelog-toggle-comment)
+[![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)](https://github.com/dotjumpdot/consolelog-toggle-comment)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.80.0%2B-blue.svg)](https://code.visualstudio.com)
 
@@ -8,7 +8,7 @@ A simple yet powerful VS Code extension that provides a one-click solution to to
 
 ## 📺 Demo
 
-![Console.log Toggle Comment Demo](./media/demo.gif)
+![Console.log Toggle Comment Demo](https://github.com/dotjumpdot/consolelog-toggle-comment/raw/main/media/demo.gif)
 
 > Watch how Console.log Toggle Comment instantly toggles all console statements with a single click
 

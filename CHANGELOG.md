@@ -5,6 +5,13 @@ All notable changes to the Console.log Toggle Comment extension will be document
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2026-02-04
+
+### Fixed
+
+- Updated GIF reference to use absolute GitHub URL for proper display on VS Code Marketplace
+- Changed from relative path to GitHub raw URL to ensure compatibility with both GitHub and Marketplace
+
 ## [1.0.2] - 2026-02-04
 
 ### Fixed
